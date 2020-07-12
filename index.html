@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>旅游网</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        p{
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .zhengti{
+            width: 1440px;
+            margin: 0 auto;
+            background:rgb(243,243,243);
+        }
+        .header1{
+            height:35px;
+            background: url("img/登录图标.png") 1030px 5px no-repeat ,
+                        url("img/服务热线.png") 250px 8px no-repeat ,
+                        url("img/图层10.png");
+        }
+        .header1 a:first-child{
+            margin:10px 0 0 1068px;
+        }
+        .header1 a:last-child{
+            padding: 0 0 0 30px;
+        }
+        .header1 a{
+            display: inline-block;
+            color:rgba(116,264,213,0.5);
+            font-size: 12px;
+        }
+        .header1 a:hover{
+            color:white;
+        }
+        .logo{
+            height: 95px;
+            background: url("img/1_03.png") 230px 5px no-repeat,
+                        url("img/首页.png") 655px -3px no-repeat,
+                        white;
+
+        }
+        .logo li{
+             display: inline-block;
+             width: 100px;
+             height: 95px;
+            text-align: center;
+         }
+        .logo li:first-child{
+               margin: 50px 0 0 663px;
+        }
+        .logo li a{
+            color: black;
+        }
+        .logo li:first-child a{
+            color:white;
+        }
+        .daohang{
+            height: 470px;
+            background: url("img/海滩.png") 0 0 no-repeat;
+        }
+        .daohang1{
+            font-size: 51px;
+            color: white;
+            text-shadow:1px 1px  4px black ;
+            text-align: center;
+            padding-top:60px;
+        }
+        .daohang2{
+            text-align: center;
+        }
+        .daohang2 ul:first-child{
+            margin-top: 120px;
+        }
+        .daohang2 ul li{
+            display: inline-block;
+            width: 90px;
+            height: 90px;
+            text-align: center;
+            border-radius: 50%;
+            color: white;
+            font-size: 20px;
+            margin-left: 30px;
+
+        }
+        .daohang2 ul li img{
+            margin-top:10px;
+        }
+        .footer{
+            color: white;
+            background: url("img/二维码/二维码左.png") 1030px 20px no-repeat,
+                        url("img/二维码/二维码右 .png") 1140px 20px no-repeat,
+                        rgb(38,169,225);
+            height: 130px;
+            padding: 0 0 0 230px;
+            font-size: 12px;
+        }
+        .footer a{
+            color: white;
+        }
+        .footer a:hover{
+            color: red;
+        }
+        .footer ul{
+            padding: 30px 0 0 0;
+        }
+        .footer ul li{
+            display: inline-block;
+            border-left:1px white solid;
+            padding:  0 0 0 8px;
+        }
+        .footer p{
+            margin: 10px 0 0 0;
+        }
+        .photo{
+            width:990px;
+            margin:0  auto;
+            position: relative;
+        }
+        .photo1{
+            padding-top: 30px;
+        }
+        .photo2{
+            background:white;
+            margin-top: -4px;
+        }
+        .photo21{
+            background:rgb(38,169,225);
+            height:35px;
+            padding-left: 40px;
+            padding-top: 12px;
+        }
+        .photo21 ul li{
+            display:inline-block;
+            font-size: 16px;
+        }
+        .photo21 ul li a{
+            color:white;
+            padding: 2px 13px;
+            display: inline-block;
+            text-align: center;
+            border-radius:5px;
+        }
+        .photo21 ul li:first-child a{
+            background:rgb(35,94,164);
+        }
+        .photo22{
+            padding: 40px 15px 40px 15px;
+        }
+        .photo22 ul li{
+            display: inline-block;
+            color: black;
+            font-size: 12px;
+            text-align: center;
+            padding: 0 15px 10px 15px;
+            line-height: 25px;
+        }
+        .photo22 ul li img:first-child{
+            border: 1px solid rgba(0,0,0,0.2);
+            padding: 3px;
+        }
+        .photo22 ul li>span:nth-child(3){
+            color: rgb(38,169,225);
+        }
+        .photo22 ul li>span:nth-child(7){
+            color:rgba(0,0,0,0.4);
+        }
+        .photo22 ul li>span>span{
+            color:red;
+        }
+        .zhiti{
+            font-size: 20px;
+            position: absolute;
+            left: 650px;
+            top: 120px;
+        }
+        .zhiti a{
+            color: rgb(38,169,225);
+        }
+    </style>
+</head>
+<body>
+    <div class="zhengti">
+        <header class="header">
+            <div class="header1">
+                <a href="">登录</a>
+                <a href="">注册</a>
+            </div>
+            <div class="logo">
+                <li><a href="">首页</a></li>
+                <li><a href=""><img src="img/海岛.png" alt=""><br>海岛</a></li>
+                <li><a href=""><img src="img/东南亚.png" alt=""><br>东南亚</a></li>
+                <li><a href=""><img src="img/产品说明.png" alt=""><br>产品说明</a></li>
+                <li><a href=""><img src="img/关于我们.png" alt=""><br>关于我们</a></li>
+            </div>
+            <div class="daohang">
+                <div class="daohang1">自由"新"主张精彩"您"来定</div>
+                <div class="daohang2">
+                    <ul>
+                        <li style="background:rgb(238,131,121);"><img src="img/休闲度假icon/休闲度假.png" alt=""></li>
+                        <li style="background:rgb(174,148,111);"><img src="img/休闲度假icon/ren.png" alt=""></li>
+                        <li style="background:rgb(255,160,1);"><img src="img/休闲度假icon/shu.png" alt=""></li>
+                        <li style="background:rgb(83,169,182);"><img src="img/休闲度假icon/tou.png" alt=""></li>
+                        <li style="background:rgb(116,140,200);"><img src="img/休闲度假icon/chuan.png" alt=""></li>
+                    </ul>
+                    <ul>
+                        <li>休闲度假</li>
+                        <li>休闲度假</li>
+                        <li>休闲度假</li>
+                        <li>休闲度假</li>
+                        <li>休闲度假</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="photo">
+            <div class="photo1">
+                <img src="img/beauty.png" style="width: 990px" alt="">
+            </div>
+            <div class="zhiti"><a href="">更多出发地>></a></div>
+            <div class="photo2">
+                <div class="photo21">
+                    <ul>
+                        <li><a href="">沙巴</a></li>
+                        <li><a href="">帕劳</a></li>
+                        <li><a href="">枧港</a></li>
+                        <li><a href="">曼芭普</a></li>
+                        <li><a href="">新马</a></li>
+                        <li><a href="">新马泰</a></li>
+                        <li><a href="">巴厘岛</a></li>
+                        <li><a href="">吉普</a></li>
+                        <li><a href="">沙巴</a></li>
+                        <li><a href="">曼芭普</a></li>
+                        <li><a href="">泰新马</a></li>
+                    </ul>
+                </div>
+                <div class="photo22">
+                    <ul>
+                        <li><img src="img/泰国/泰国1.png" alt=""><br>
+                            <span>泰国六天</span><br>
+                            <span>同行价:￥<span>1199</span>起</span><br>
+                            <span>推荐指数:</span><img src="img/泰国/wuxing.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/泰国/泰国1-2.png" alt=""><br>
+                            <span>泰国五天</span><br>
+                            <span>同行价:￥<span>0</span>起</span><br>
+                            <span>推荐指数:</span><img src="img/泰国/3.5.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/泰国/泰国1-3.png" alt=""><br>
+                            <span>泰国七天</span><br>
+                            <span>同行价:￥<span>0</span>起</span><br>
+                            <span>推荐指数:</span><img src="img/泰国/wuxing.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/泰国/泰国1-4.png" alt=""><br>
+                            <span>泰国八天</span><br>
+                            <span>同行价:￥<span>1680</span>起</span><br>
+                            <span>推荐指数:</span><img src="img/泰国/wuxing.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/泰国/泰国2/泰国2-1.png" alt=""><br>
+                            <span>曼芭普</span><br>
+                            <span>同行价:￥<span>3280</span>起</span><br>
+                            <span>推荐指数:</span><img src="img/泰国/wuxing.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/泰国/泰国2/泰国2-2.png" alt=""><br>
+                            <span>新马五天</span><br>
+                            <span>同行价:￥<span>0</span>起</span><br>
+                            <span>推荐指数:</span><img src="img/泰国/wuxing.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/泰国/泰国2/泰国2-3.png" alt=""><br>
+                            <span>新马泰十天</span><br>
+                            <span>同行价:￥<span>3380</span>起</span><br>
+                            <span>推荐指数:</span><img src="img/泰国/3.5.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/泰国/泰国2/泰国2-4.png" alt=""><br>
+                            <span>泰新马十天</span><br>
+                            <span>同行价:￥<span>3180</span>起</span><br>
+                            <span>推荐指数:</span><img src="img/泰国/wuxing.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/泰国/泰国3/泰国3-1.png" alt=""><br>
+                            <span>巴厘岛五天休闲游</span><br>
+                            <span>同行价:￥<span>2880</span>起</span><br>
+                            <span>推荐指数:</span><img src="img/泰国/wuxing.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/泰国/泰国3/泰国3-2.png" alt=""><br>
+                            <span>普吉5天4晚尊享豪华游</span><br>
+                            <span>同行价:￥<span>1999</span>起</span><br>
+                            <span>推荐指数:</span><img src="img/泰国/wuxing.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/泰国/泰国3/泰国3-3.png" alt=""><br>
+                            <span>普吉5天4晚奇幻尊爵环岛之旅</span><br>
+                            <span>同行价:￥<span>0</span>起</span><br>
+                            <span>推荐指数:</span><img src="img/泰国/wuxing.png" alt="">
+                        </a></li>
+                        <li>
+                            <img src="img/泰国/泰国3/泰国3-4.png" alt=""><br>
+                            <span>巴厘岛6天4晚乐享闲游</span><br>
+                            <span>同行价:￥<span>2880</span>起</span><br>
+                            <span>推荐指数:</span><img src="img/泰国/wuxing.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/泰国/泰国4/泰国4-1.png" alt=""><br>
+                            <span>沙巴五天</span><br>
+                            <span>同行价:￥<span>3280</span>起</span><br>
+                            <span>推荐指数:</span><img src="img/泰国/wuxing.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/泰国/泰国4/泰国4-2.png" alt=""><br>
+                            <span>帕劳五天</span><br>
+                            <span>同行价:￥<span>0</span>起</span><br>
+                            <span>推荐指数:</span><img src="img/泰国/wuxing.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/泰国/泰国4/泰国4-3.png" alt=""><br>
+                            <span>帕劳四天</span><br>
+                            <span>同行价:￥<span>3380</span>起</span><br>
+                            <span>推荐指数:</span><img src="img/泰国/3.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/泰国/泰国4/泰国4-4.png" alt=""><br>
+                            <span>枧港</span><br>
+                            <span>同行价:￥<span>3180</span>起</span><br>
+                            <span>推荐指数:</span><img src="img/泰国/wuxing.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <ul>
+                <li><a href="">关于我们</a></li>
+                <li><a href="">联系我们</a></li>
+                <li><a href="">付款方式</a></li>
+                <li><a href="">常用酒店</a></li>
+            </ul>
+            <p>地址:xxxxxxxx号太平洋商贸大厦A座20A 电话:0755-0008988 传真:400-25500000</p>
+            <p>xxx国际旅行社有限公司 粤ICP备13059757号 技术支持:同天下 站长统计</p>
+        </footer>
+    </div>
+</body>
+</html>
